@@ -302,8 +302,10 @@ input:focus {
   cursor: pointer;
 }
 
-.send-button:focus {
-  outline: 3px solid var(--blanco);
+.send-button:focus,
+.modal-button:focus {
+  border: 5px solid var(--gris-oscuro);
+  outline: 3px solid var(--verde);
 }
 
 .notification {
@@ -320,6 +322,10 @@ input:focus {
   right: 24px;
   top: 24px;
   width: 300px;
+}
+
+#modal-header {
+  outline: 3px solid var(--verde);
 }
 
 .modal-container {
